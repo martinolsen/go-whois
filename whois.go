@@ -11,10 +11,11 @@ import (
 )
 
 var Parsers = map[string]Parser{
-	"whois.iana.org":   &RPSL{},
+	"whois.apnic.net": &RPSL{},
 	"whois.arin.net":   &RPSL{},
-	"whois.ripe.net":   &RPSL{},
+	"whois.iana.org":   &RPSL{},
 	"whois.lacnic.net": &RPSL{},
+	"whois.ripe.net":   &RPSL{},
 }
 
 // Lookup ip on IANA, then on `refer`

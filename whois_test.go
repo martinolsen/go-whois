@@ -15,6 +15,7 @@ func TestWhois(t *testing.T) {
 		{"177.223.18.77", "", "BR"},
 		{"190.77.179.162", "", "VE"},
 		{"91.240.224.54", "", "GB"},
+		{"202.101.234.208", "", "CN"},
 		// TODO {"54.204.5.88", "", "US"}, - returns references to multiple networks...
 	}
 
